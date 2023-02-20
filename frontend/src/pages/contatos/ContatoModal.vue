@@ -7,7 +7,7 @@
   >
     <q-card
       class="q-pa-lg"
-      style="min-width: 700px"
+      style="min-width: 400px"
     >
       <q-card-section>
         <div class="text-h6">
@@ -19,7 +19,7 @@
       </q-card-section>
       <q-card-section class="q-pa-sm q-pl-md row q-col-gutter-md">
         <c-input
-          class="col-6"
+          class="col-12"
           outlined
           v-model="contato.name"
           :validator="$v.contato.name"
@@ -27,7 +27,7 @@
           label="Nome"
         />
         <c-input
-          class="col-6"
+          class="col-12"
           outlined
           v-model="contato.number"
           :validator="$v.contato.number"
